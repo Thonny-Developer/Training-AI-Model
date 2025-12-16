@@ -31,8 +31,6 @@ but building a stable and extensible foundation for a production-ready assistant
 
 └── README.md
 
-````
-
 
 ## Model Overview
 
