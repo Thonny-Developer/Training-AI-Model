@@ -2,9 +2,11 @@
 # AI Command Intent Model
 
 This repository contains an intent classification model used as the core of an AI voice assistant
-The model receives free-form user text, predicts the intended command, and extracts structured arguments for further execution
+The model receives free-form user text, predicts the intended command,
+and extracts structured arguments for further execution
 
-The goal of this project is not just experimentation, but building a stable and extensible foundation for a production-ready assistant
+The goal of this project is not just experimentation,
+but building a stable and extensible foundation for a production-ready assistant
 
 
 ## What This Project Does
@@ -15,16 +17,18 @@ The goal of this project is not just experimentation, but building a stable and 
 - Designed to be used in CLI tools, APIs, or real-time voice assistants
 - Clean separation between training and inference logic
 
+```
 
 ## Project Structure
 
-```
-
-.
 ├── dataset.json          # Training dataset (commands and examples)
+
 ├── train.py              # Model training pipeline
+
 ├── infer.py              # Inference / command processing logic
+
 ├── command_model/        # Trained model artifacts
+
 └── README.md
 
 ````
