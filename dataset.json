@@ -2,26 +2,20 @@
   {
     "command": "play_music",
     "examples": [
-      { "text": "Включи песню Yesterday", "arguments": { "song_name": "Yesterday" } },
-      { "text": "Запусти трек Shape of You", "arguments": { "song_name": "Shape of You" } },
-      { "text": "Играй Believer", "arguments": { "song_name": "Believer" } },
-      { "text": "Поставь песню Hello", "arguments": { "song_name": "Hello" } },
-      { "text": "Включи композицию Rolling in the Deep", "arguments": { "song_name": "Rolling in the Deep" } },
-      { "text": "Проиграй Bad Romance", "arguments": { "song_name": "Bad Romance" } },
-      { "text": "Запусти музыку Thunder", "arguments": { "song_name": "Thunder" } },
-      { "text": "Поставь Something Just Like This", "arguments": { "song_name": "Something Just Like This" } },
-      { "text": "Играй Seven Nation Army", "arguments": { "song_name": "Seven Nation Army" } },
-      { "text": "Включи Havana", "arguments": { "song_name": "Havana" } },
-      { "text": "Запусти Rockstar", "arguments": { "song_name": "Rockstar" } },
-      { "text": "Играй Take Me to Church", "arguments": { "song_name": "Take Me to Church" } },
-      { "text": "Поставь Sugar", "arguments": { "song_name": "Sugar" } },
-      { "text": "Включи Animals", "arguments": { "song_name": "Animals" } },
-      { "text": "Проиграй Counting Stars", "arguments": { "song_name": "Counting Stars" } },
-      { "text": "Запусти Bohemian Rhapsody", "arguments": { "song_name": "Bohemian Rhapsody" } },
-      { "text": "Играй Smells Like Teen Spirit", "arguments": { "song_name": "Smells Like Teen Spirit" } },
-      { "text": "Поставь песню Lose Yourself", "arguments": { "song_name": "Lose Yourself" } },
-      { "text": "Включи Don't Stop Believin'", "arguments": { "song_name": "Don't Stop Believin'" } },
-      { "text": "Запусти The Sound of Silence", "arguments": { "song_name": "The Sound of Silence" } }
+      { "text": "Включи песню Yesterday", "arguments": { "track": "Yesterday" } },
+      { "text": "Запусти трек Shape of You", "arguments": { "track": "Shape of You" } },
+      { "text": "Играй Believer", "arguments": { "track": "Believer" } },
+      { "text": "Поставь песню Hello", "arguments": { "track": "Hello" } },
+      { "text": "Включи композицию Rolling in the Deep", "arguments": { "track": "Rolling in the Deep" } },
+      { "text": "Проиграй Bad Romance", "arguments": { "track": "Bad Romance" } },
+      { "text": "Запусти музыку Thunder", "arguments": { "track": "Thunder" } },
+      { "text": "Поставь Something Just Like This", "arguments": { "track": "Something Just Like This" } },
+      { "text": "Играй Seven Nation Army", "arguments": { "track": "Seven Nation Army" } },
+      { "text": "Включи Havana", "arguments": { "track": "Havana" } },
+
+      { "text": "Включи музыку" },
+      { "text": "Запусти что-нибудь" },
+      { "text": "Хочу послушать музыку" }
     ]
   },
   {
@@ -35,43 +29,23 @@
       { "text": "Будильник на 10 вечера", "arguments": { "time": "22:00" } },
       { "text": "Поставь сигнал на 14:30", "arguments": { "time": "14:30" } },
       { "text": "Разбуди меня ровно в 5 утра", "arguments": { "time": "05:00" } },
-      { "text": "Поставь будильник на завтра в 6:15", "arguments": { "time": "06:15" } },
-      { "text": "Поставь звонок на 23:45", "arguments": { "time": "23:45" } },
-      { "text": "Разбуди меня в 4:20", "arguments": { "time": "04:20" } },
-      { "text": "Будильник на 11:10", "arguments": { "time": "11:10" } },
-      { "text": "Заведи сигнал на 2 ночи", "arguments": { "time": "02:00" } },
-      { "text": "Поставь сигнал на 3:50", "arguments": { "time": "03:50" } },
-      { "text": "Разбуди меня к 7:25", "arguments": { "time": "07:25" } },
-      { "text": "Будильник ровно на 13:00", "arguments": { "time": "13:00" } },
-      { "text": "Заведи звонок на 16:40", "arguments": { "time": "16:40" } },
-      { "text": "Запусти будильник на 19:55", "arguments": { "time": "19:55" } },
-      { "text": "Разбуди меня к 5:35", "arguments": { "time": "05:35" } },
-      { "text": "Будильник на 21:25", "arguments": { "time": "21:25" } }
+
+      { "text": "Поставь будильник" },
+      { "text": "Разбуди меня завтра" }
     ]
   },
   {
     "command": "set_timer",
     "examples": [
-      { "text": "Таймер на 10 минут", "arguments": { "time": "00:10:00" } },
-      { "text": "Поставь таймер на 1 час", "arguments": { "time": "01:00:00" } },
-      { "text": "Обратный отсчет на 45 секунд", "arguments": { "time": "00:00:45" } },
-      { "text": "Таймер на 2 минуты", "arguments": { "time": "00:02:00" } },
-      { "text": "Запусти таймер на 30 минут", "arguments": { "time": "00:30:00" } },
-      { "text": "Обратный отсчет 5 минут", "arguments": { "time": "00:05:00" } },
-      { "text": "Таймер на 90 секунд", "arguments": { "time": "00:01:30" } },
-      { "text": "Поставь таймер на 20 секунд", "arguments": { "time": "00:00:20" } },
-      { "text": "Таймер на 4 минуты 30 секунд", "arguments": { "time": "00:04:30" } },
-      { "text": "Запусти обратный отсчет на 15 минут", "arguments": { "time": "00:15:00" } },
-      { "text": "Таймер ровно на 2 часа", "arguments": { "time": "02:00:00" } },
-      { "text": "Обратный таймер на 12 минут", "arguments": { "time": "00:12:00" } },
-      { "text": "Поставь обратный отсчет на 6 минут", "arguments": { "time": "00:06:00" } },
-      { "text": "Таймер на 3 минуты", "arguments": { "time": "00:03:00" } },
-      { "text": "Обратный отсчет на 55 секунд", "arguments": { "time": "00:00:55" } },
-      { "text": "Запусти таймер на 1 час 15 минут", "arguments": { "time": "01:15:00" } },
-      { "text": "Поставь таймер на 8 минут", "arguments": { "time": "00:08:00" } },
-      { "text": "Запусти таймер на 40 секунд", "arguments": { "time": "00:00:40" } },
-      { "text": "Обратный отсчет 25 минут", "arguments": { "time": "00:25:00" } },
-      { "text": "Таймер на 7 минут 20 секунд", "arguments": { "time": "00:07:20" } }
+      { "text": "Таймер на 10 минут", "arguments": { "duration": "00:10:00" } },
+      { "text": "Поставь таймер на 1 час", "arguments": { "duration": "01:00:00" } },
+      { "text": "Обратный отсчет на 45 секунд", "arguments": { "duration": "00:00:45" } },
+      { "text": "Таймер на 2 минуты", "arguments": { "duration": "00:02:00" } },
+      { "text": "Запусти таймер на 30 минут", "arguments": { "duration": "00:30:00" } },
+      { "text": "Таймер на 4 минуты 30 секунд", "arguments": { "duration": "00:04:30" } },
+
+      { "text": "Поставь таймер" },
+      { "text": "Запусти обратный отсчет" }
     ]
   },
   {
@@ -82,11 +56,8 @@
       { "text": "Добавь звук" },
       { "text": "Громче" },
       { "text": "Прибавь громкость" },
-      { "text": "Усиль звук" },
-      { "text": "Дай больше громкости" },
-      { "text": "Звук погромче" },
-      { "text": "Прибавь на 10 процентов" },
-      { "text": "Увеличь громкость на максимум" }
+      { "text": "Прибавь на 10 процентов", "arguments": { "value": 10 } },
+      { "text": "Увеличь громкость на максимум", "arguments": { "value": 100 } }
     ]
   },
   {
@@ -97,11 +68,7 @@
       { "text": "Тише" },
       { "text": "Сбавь звук" },
       { "text": "Убавь громкость" },
-      { "text": "Сделай на 50% тише" },
-      { "text": "Понизь громкость" },
-      { "text": "Отключи половину звука" },
-      { "text": "Сбавь на 20 процентов" },
-      { "text": "Минимальная громкость" }
+      { "text": "Сделай на 50% тише", "arguments": { "value": 50 } }
     ]
   },
   {
@@ -110,13 +77,7 @@
       { "text": "Следующая песня" },
       { "text": "Пропусти трек" },
       { "text": "Дальше" },
-      { "text": "Переключи на следующую" },
-      { "text": "Скипни" },
-      { "text": "Включи следующую песню" },
-      { "text": "Пролистай вперед" },
-      { "text": "Сменить трек" },
-      { "text": "Пропусти этот трек" },
-      { "text": "Следующий трек" }
+      { "text": "Переключи на следующую" }
     ]
   },
   {
@@ -125,13 +86,7 @@
       { "text": "Верни предыдущую песню" },
       { "text": "Назад" },
       { "text": "Предыдущий трек" },
-      { "text": "Перемотай на прошлую" },
-      { "text": "Прошлая песня" },
-      { "text": "Включи предыдущую" },
-      { "text": "Назад на один трек" },
-      { "text": "Вернись к прошлой песне" },
-      { "text": "Поставь предыдущий трек" },
-      { "text": "Переключи назад" }
+      { "text": "Прошлая песня" }
     ]
   },
   {
@@ -140,13 +95,7 @@
       { "text": "Пауза" },
       { "text": "Останови музыку" },
       { "text": "Поставь на паузу" },
-      { "text": "Прекрати воспроизведение" },
-      { "text": "Пауза трека" },
-      { "text": "Приостанови песню" },
-      { "text": "Стоп" },
-      { "text": "Замри" },
-      { "text": "Выключи музыку" },
-      { "text": "Поставь трек на паузу" }
+      { "text": "Стоп" }
     ]
   }
 ]
