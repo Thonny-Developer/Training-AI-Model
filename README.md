@@ -1,4 +1,3 @@
-```md
 # AI Command Intent Model
 
 This repository contains an intent classification model used as the core of an AI voice assistant
@@ -16,8 +15,6 @@ but building a stable and extensible foundation for a production-ready assistant
 - Extracts arguments such as time, volume, duration, or target service
 - Designed to be used in CLI tools, APIs, or real-time voice assistants
 - Clean separation between training and inference logic
-
-```
 
 ## Project Structure
 
